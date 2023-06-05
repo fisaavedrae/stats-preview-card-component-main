@@ -1,33 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+
   <title>Frontend Mentor | Stats preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+
   </style>
 </head>
+
 <body>
 
-  Get insights that help your business grow.
+  <div class="container">
+    <div class="principal">
+      <div class="card">
+        <div class="titulo">Get <b>insights</b> that help your business grow.</div>
+        <div class="descripcion">Discover the benefits of data analytics and make better decisions regarding revenue,
+          customer
+          experience, and overall efficiency.</div>
+        <div class="stats">
+          <div class="item">
+            <div class="numero">10k+</div>
+            <div class="text">companies</div>
+          </div>
+          <div class="item">
+            <div class="numero">314</div>
+            <div class="text"> templates
+            </div>
+          </div>
+          <div class="item">
+            <div class="numero">12m+</div>
+            <div class="text">queries</div>
+          </div>
+        </div>
+      </div>
+      <div class="imagen">
+        <img class="img-mobile" src="./assets/images/image-header-mobile.jpg" alt="Imagen Header" />
+        <img class="img-desktop" src="./assets/images/image-header-desktop.jpg" alt="Imagen Header" />
+      </div>
+    </div class="principal">
+  </div>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
 
-  10k+ companies
-  314 templates
-  12m+ queries
+
+
+
+
+
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://fisaavedrae.github.io/">{FSE}</a>.
   </div>
 </body>
+
 </html>

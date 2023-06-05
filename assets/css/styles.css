@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.principal {
+    width: 340px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    flex-direction: column-reverse;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* Card */
+.card {
+    width: 100%;
+    background-color: hsl(244, 38%, 16%);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.titulo {
+    width: 75%;
+    padding-top: 40px;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.titulo b {
+    color: hsl(277, 64%, 61%);
+}
+
+.descripcion {
+    width: 75%;
+    padding-top: 20px;
+    line-height: 25px;
+    font-size: 0.9rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    opacity: 90%;
+}
+
+.stats {
+    padding-top: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+
+}
+
+.numero {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 0.8rem;
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+/* fin Card */
+/* Imagen */
+.imagen {
+    width: 100%;
+    height: 249px;
+    background-color: hsl(277, 64%, 61%);
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.img-mobile {
+    width: 100%;
+    visibility: visible;
+    display: block;
+    opacity: 40%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.img-desktop {
+    visibility: hidden;
+    display: none;
+}
+
+/* fin imagen*/
+
+
+.attribution {
+    padding-top: 20px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(53, 86%, 47%);
+}
+
+@media (min-width:875px) {
+
+    .principal {
+        width: 80%;
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        flex-flow: row;
+        align-items: center;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    /* Card */
+    .card {
+        width: 50%;
+        height: 446px;
+        background-color: hsl(244, 38%, 16%);
+        font-family: 'Inter', sans-serif;
+        text-align: left;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .titulo {
+        width: 70%;
+        padding-top: 50px;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .titulo b {
+        color: hsl(277, 64%, 61%);
+    }
+
+    .descripcion {
+        width: 70%;
+        padding-top: 20px;
+        line-height: 25px;
+        font-size: 1rem;
+        color: hsla(0, 0%, 100%, 0.75);
+        opacity: 80%;
+    }
+
+    .stats {
+        width: 70%;
+        padding-top: 50px;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+    }
+
+    .item {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+
+
+    }
+
+    .numero {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .text {
+        font-size: 0.8rem;
+        color: hsla(0, 0%, 100%, 0.6);
+        text-transform: uppercase;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+
+    /* fin Card */
+    .imagen {
+        width: 50%;
+        height: 446px;
+
+        background-color: hsl(277, 64%, 61%);
+        border-radius: 0px 10px 10px 0px;
+
+    }
+
+    .img-mobile {
+        width: 100%;
+        visibility: hidden;
+        display: none;
+        opacity: 40%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .img-desktop {
+        width: 100%;
+        height: 446px;
+        visibility: visible;
+        display: block;
+        opacity: 40%;
+        border-radius: 0px 10px 10px 0px;
+    }
+}
